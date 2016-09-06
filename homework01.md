@@ -73,7 +73,7 @@ Just like chemists think of an idea of converting salt water into drinkable wate
 #### Abstractions
 This is one of the way of software engineers solve problem, they split a high level problem into some smaller problems that is understandable or using abstractions developed by others.
 
-This is important because usually a general problems is abstract and hard to solve within a short time and a simple step, however, it contains several parts which can be solved one by one. For example, the problem of designing a social graph, which can be break down into three detailed parts: a list of user ids and the ids that they follow, a list of user ids and ids that following them and a list of ids and the information objects corresponds to that id. This makes solution is clear at a data structure level which can make coding easier. By building up these small problems the original problem is solved.
+This is important because usually a general problems is abstract and hard to solve within a short time and a simple step, however, it contains several parts which can be solved one by one. For example, the problem of designing a social media, which can be break down into three detailed parts: a list of user ids and the ids of their posts, a list of posts ids and user ids that react to the post and a list of ids and the information objects corresponds to that id. This makes solution is clear at a data structure level which can make coding easier. By building up these small problems the original problem is solved.
 
 #### Conversations
 Conversations refers to the interaction between not only the developers but documentations, abstractions and testing cases as well.
