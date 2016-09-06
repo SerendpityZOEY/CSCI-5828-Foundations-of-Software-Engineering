@@ -7,7 +7,7 @@
 The essential difficulties results from the fast progress of hardware and the irreducible essence of modern software system, which can be elaborated from four aspects: complexity, conformity, changeability and invisibility. Essential difficulties are caused by the properties of software itself.
 
 > Following Aristotle, I divide them into essence, the difficulties inherent in the nature of software, ...
-> -Frederick P. Brooks, Jr.
+> -Frederick P. Brooks, Jr. \[[1](#ref1)\]
 
 **Example:** Take China's great firewall as an example, it blocking some websites like Facebook, Youtube, Twitter, etc and thus coming with some essential difficulties. Some applications is related to accounts authentication of these websites while cannot be used in China, but Chinese people want to use other apps' authentication, so they must have different versions to avoid this problem. Also, take Evernote as another example, it runs on a different server in China so the version of the app is different when you download with different countries settings although they actually is *'the same'* app. Therefore, there must be some bug-fix process when applications are using in different regions.
 
@@ -52,7 +52,7 @@ Accidental difficulties means the difficulties that attacked by those three step
     - Take class diagram as an example, which I think contains the most parts of structures of a software. It shows the elements that made up the logic of software, the relationship between elements, the attributes and methods under each class. Nevertheless, it is only able to visualize the structure of software. It is not able to show the sequence of a use case, the use cases that a software has, or the workflow which is shown in activity diagram.
 ![Class Diagram of Social Media](http://i.stack.imgur.com/PrK90.jpg "Class Diagram of Social Media")
 
-### Question4
+### Question 4
 ### Define what Brooks means by a silver bullet and reconstruct his argument as to why he believes there is no silver bullet for software engineering.
 A silver bullet refers to technical developments to make software costs drop as rapidly as computer hardware costs do. In other words, to improve the development by a factor of 10.
 
@@ -62,13 +62,13 @@ Based on the definition of silver bullet, two arguments must be satisfied to sup
 
 However, Brooks thinks the domainted part of overall effort results from essential difficulties rather than accidental ones. Secondly, although we might have such tool that solve current problems, it would bring new problems simultaneously. Therefore, Brooks belives there is no silver bullet.
 
-### Question5
+### Question 5
 ### In lecture, software engineering's relationship to computer science was described by analogy by discussing the differences between a chemist (chemistry) and a chemical engineer (chemical engineering). Define software engineering and its relationship to computer science; make use of the chemist vs. chemical engineer analogy when answering this question.
 Software engineering is to develop the application of computer programs. It usually follows the steps: design, implement, compile, debug and test. A software is designed with use cases, UML diagrams, user requirements and so on. Then software engineers use software techniques, such as frameworks, tools, programming languages to code the program and debug it so that the program can be implemented. Then, they write test cases to to test the program and verification progrmas so that the product can be put into pratical use. To apply computer programs to real world usage, *software engineers need to consider the budget and efficiency*. Therefore, they borrow knowledge including *algorithms, data structure, frameworks which have been proved by computer scientists*. 
 
 Just like chemists think of an idea of converting salt water into drinkable water, *computer scientists* specialize in different areas think of a well performance machine learning algorithm with high accuracy, an effcient search algorithm, a new distribut system, detection shortcomings of current programming languages or frameworks etc., and develop a new version to improve it. Their work is done after prove their method is correct and applicable. Then *software engineers* pick up what they need from existing methods to build up the real tool or application which can be used by other people in many fields as well as computer science. This is just like chemical engineer considers how to implement the conversion and the budgets or potential problems.
 
-### Question6
+### Question 6
 #### In lecture, we discussed the importance of the following concepts to software engineers: abstractions, conversations, specification, translation, and iteration. Define each of these concepts as they are related to software engineering and discuss their importance.
 #### Abstractions
 This is one of the way of software engineers solve problem, they split a high level problem into some smaller problems that is understandable or using abstractions developed by others.
@@ -96,5 +96,5 @@ The development can't be done at one time. Instead, there are a bunch of version
 Iteration is important because even clients don't know exactly what they want in the beginning, usually they describe a high level of expectation of the product's functionality and software developers needs to discuss with them when designing the logic of data model, UI design, algorithms needed, etc. So the work needs to be iterate and iterate to reach the requirements and full functionality.
 
 ### References
-1. <a name="ref1">Brooks, F. P. , J. (1987).</a>, D.L., <q>No Silver Bullet—Essence and Accidents of Software Engineering<q>.
-2. <a name="ref2">Kenneth Anderson</a>, D.L., <q>Lecture 01 slides<q>.
+1. <a name="ref1">Brooks, F. P. , J. (1987).</a>, D.L., <q>No Silver Bullet—Essence and Accidents of Software Engineering<q>
+2. <a name="ref2">Kenneth Anderson</a>, D.L., <q>Lecture 01 slides<q>
