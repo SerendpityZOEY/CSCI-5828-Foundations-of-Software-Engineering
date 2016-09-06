@@ -54,22 +54,26 @@ Accidental difficulties means the difficulties that attacked by those three step
 
 ### Question4
 ### Define what Brooks means by a silver bullet and reconstruct his argument as to why he believes there is no silver bullet for software engineering.
-Technical developments to make software costs drop as rapidly as computer hardware costs do.
-Based on the definition of silver bullet, to improve software development, two arguments must be satisfied.
-- Accidents of software engineering must account for 90% of the overall effort
-- The technique would have to reduce accidental problems to zero.
+A silver bullet refers to technical developments to make software costs drop as rapidly as computer hardware costs do. In other words, to improve the development by a factor of 10.
 
-However, Brooks thinks the domainted part of overall effort results from essential difficulties rather than accidental ones. Secondly, although we might have such tool that solve current problems, it would bring new problems simultaneously.
+Based on the definition of silver bullet, two arguments must be satisfied to support proving the existence of silver bullet:
+- **Accidents** of software engineering must account for the domain part of the overall effort
+- The technique would have to **completely** reduce accidental problems.
+
+However, Brooks thinks the domainted part of overall effort results from essential difficulties rather than accidental ones. Secondly, although we might have such tool that solve current problems, it would bring new problems simultaneously. Therefore, Brooks belives there is no silver bullet.
 
 ### Question5
 ### In lecture, software engineering's relationship to computer science was described by analogy by discussing the differences between a chemist (chemistry) and a chemical engineer (chemical engineering). Define software engineering and its relationship to computer science; make use of the chemist vs. chemical engineer analogy when answering this question.
-Software engineering is to develop the application of computer programs. It usually follows the steps: design, implement, compile, debug and test. A software is designed with use cases, UML diagrams, user requirements and so on. Then software engineers use software techniques, such as frameworks, tools, programming languages to code the program and debug it so that the program can be implemented. Then, they write test cases to to test the program and verification progrmas so that the product can be put into pratical use. To apply computer programs to real world usage, software engineers need to consider the budget and efficiency. Therefore, they borrow knowledge including algorithms, data structure, frameworks which have been proved by computer scientists. Just like chemists think of an idea of converting salt water into drinkable water, computer scientists specialize in different areas think of a well performance machine learning algorithm with high accuracy, an effcient search algorithm, a new distribut system, detection shortcomings of current programming languages or frameworks etc., and develop a new version to improve it. Their work is done after prove their method is correct and applicable. Then software engineers pick up what they need from existing methods to build up the real tool or application which can be used by other people in many fields as well as computer science. This is just like chemical engineer considers how to implement the conversion and the budgets or potential problems.
+Software engineering is to develop the application of computer programs. It usually follows the steps: design, implement, compile, debug and test. A software is designed with use cases, UML diagrams, user requirements and so on. Then software engineers use software techniques, such as frameworks, tools, programming languages to code the program and debug it so that the program can be implemented. Then, they write test cases to to test the program and verification progrmas so that the product can be put into pratical use. To apply computer programs to real world usage, *software engineers need to consider the budget and efficiency*. Therefore, they borrow knowledge including *algorithms, data structure, frameworks which have been proved by computer scientists*. 
+
+Just like chemists think of an idea of converting salt water into drinkable water, *computer scientists* specialize in different areas think of a well performance machine learning algorithm with high accuracy, an effcient search algorithm, a new distribut system, detection shortcomings of current programming languages or frameworks etc., and develop a new version to improve it. Their work is done after prove their method is correct and applicable. Then *software engineers* pick up what they need from existing methods to build up the real tool or application which can be used by other people in many fields as well as computer science. This is just like chemical engineer considers how to implement the conversion and the budgets or potential problems.
 
 ### Question6
 #### In lecture, we discussed the importance of the following concepts to software engineers: abstractions, conversations, specification, translation, and iteration. Define each of these concepts as they are related to software engineering and discuss their importance.
 #### Abstractions
-This is one of the way of software engineers solve problem, they split the whole problem into some smaller problems that is understandable or using abstractions developed by others.
-This is important because usually a general problems is hard to solve within a short time and a simple step, however, it contains several parts which can be solved one by one. For example, the problem of designing a social graph, which can be break down into three detailed parts: a list of user ids and the ids that they follow, a list of user ids and ids that following them and a list of ids and the information objects corresponds to that id. This makes solution is clear at a data structure level which can make coding easier. By building up these small problems the original problem is solved.
+This is one of the way of software engineers solve problem, they split a high level problem into some smaller problems that is understandable or using abstractions developed by others.
+
+This is important because usually a general problems is abstract and hard to solve within a short time and a simple step, however, it contains several parts which can be solved one by one. For example, the problem of designing a social graph, which can be break down into three detailed parts: a list of user ids and the ids that they follow, a list of user ids and ids that following them and a list of ids and the information objects corresponds to that id. This makes solution is clear at a data structure level which can make coding easier. By building up these small problems the original problem is solved.
 
 #### Conversations
 Conversations refers to the interaction between not only the developers but documentations, abstractions and testing cases as well.
@@ -77,12 +81,20 @@ Conversations refers to the interaction between not only the developers but docu
 Conversations are everywhere especially when you are in a team. For example, you need to communicate with others to know their progress, the problem that the team met to make sure members are working synchronized. We need conversations on-line to have a better understanding of documentations written by other developers. Also, we need conversations with test cases to make sure abstractions is working. You are never alone during software development so conversations are important.
 
 #### Specification
-The specification of software engineering refers to provide the detail of everything of software development. That is, list the exact requirements (user requirements, business requirements, project requirements, functional and non-functional requirements), design diagrams of a project in order to solve a problem, choose specific languages based on the goals to achieve, write test plans for each potential bugs, make a schedule of what you achieve today and what you can deliver this week.
+The specification of software engineering refers to provide the detail of everything of software development. That is, list the exact requirements *(user requirements, business requirements, project requirements, functional and non-functional requirements)*, design diagrams of a project in order to solve a problem, choose specific languages based on the goals to achieve, write test plans for each potential bugs, make a schedule of what you achieve today and what you can deliver this week.
+
 Specification is important since a good design makes implementation much more efficient. You list all kinds of requirements so that the final product meets all of them which can satisfy clients. When consider the whole class diagrams, you form a whole picture of the structure and reduce refactor as well. When start implementing, specify the same version of framework, programming languages and anything else to make the code more organized especially working in a team. Specify test plans make the product robust to as much as possible problems and help developers to improve it. Make a plan of development life cycle helps developer to build up the program step by step so that they won't lost direction or waste time on unnecessary trivial things.
 
 #### Translation
-The process of moving from one specification to another, from one set of structures to another and from one level of abstraction to another. This will forms a pipeline like of work that you convey until the final finished version. This makes the development more organized.
+Translation happens from the start till the end of developing software. To view the process horizontally, it moves from one specification to another, from one set of structures to another and from one level of abstraction to another.\[[2](#ref2)\] For example, when one use case is done, move to the next. On the other hand, to view translation vertically, we move from write up requirements to deisgn diagrams, data models, algorithms. After this, it moves to implementation, then testing and debugging. This will forms a pipeline like of work that you convey until the final finished version.
+
+This makes the development more organized and efficient.
 
 #### Iteration
 The development can't be done at one time. Instead, there are a bunch of versions which is the result after discussing with clients in order to meet the requirements and help them think more specific about the logic of design and what they want exactly. So we need to iterate this process to modify the current version and meet the next goal, this is the definition of iteration.
+
 Iteration is important because even clients don't know exactly what they want in the beginning, usually they describe a high level of expectation of the product's functionality and software developers needs to discuss with them when designing the logic of data model, UI design, algorithms needed, etc. So the work needs to be iterate and iterate to reach the requirements and full functionality.
+
+### References
+1. <a name="ref1">Brooks, F. P. , J. (1987).</a>, D.L., <q>No Silver Bullet—Essence and Accidents of Software Engineering<q>.
+2. <a name="ref2">Kenneth Anderson</a>, D.L., <q>Lecture 01 slides<q>.
